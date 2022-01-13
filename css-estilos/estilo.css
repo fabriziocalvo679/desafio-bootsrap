@@ -9,18 +9,19 @@ align-content: center;
 justify-content: space-between;
 background-color: black;}
 
-.logo{grid-area: logo;
+.logo{
 padding-left: 10px;
 }
 
 .logo img { width: 80px;
-height: 80px;}
-.barra {margin-right: 10px;
-grid-area: barra; 
+height: auto;}
+.barra {padding-right: 10px; 
 }
 .barra a {text-decoration: none;
 color: rgb(228, 222, 222);
-font-family: 'Courgette', cursive}
+font-family: 'Courgette', cursive;
+text-align: center;
+}
 .barra li {
 text-decoration: none;
 text-align: right;
@@ -51,7 +52,7 @@ padding-left: 50px;
 
 h1 {text-align: center;
 padding-top: 200px;
-margin-right: 200px;
+padding-right: 200px;
 font-size: 130px;
 }
 
