@@ -1,0 +1,1183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="favicon/logodonmatute.jpeg">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="css-estilos/estilo-hacer-pedido-boot.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300&family=Corinthia:wght@700&family=Courgette&display=swap');
+        </style>
+    <title>Realizarpedido</title>
+</head>
+<body class="fondo">
+
+    <div class="logo-barra"> 
+        <div class="logo"> 
+            <a href="index.html"> <img class="logo" src="img/logodonmatute1.png" alt="logo"> </a>
+        </div>
+        
+        <div class="barra" > <a name=head></a>
+        <nav> 
+            <ul >
+            <li><a href="index.html">Inicio</a> </li>
+            <li><a href="realizarpedido.html">Realizar Pedido</a></li>
+            <li><a href="sobrenosotros.html"> Sobre Nosotros</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+        </div>
+        
+        
+        </div>
+
+<nav class="variedad">
+<ul id="desplazamiento" >
+    <li><a href="#pizzas">Pizzas </a></li>
+    <li><a href="#empanadas">Empanadas</a></li>
+    <li><a href="#calzones">Calzones</a></li>
+    <li><a href="#bebidas">Bebidas</a></li>
+    <li><a href="#postres">Postres</a></li>
+</ul>
+</nav>
+
+
+<!--   PIZZAS     -->
+
+
+<H2 class= "pizzas"><a name=pizzas></a>Pizzas</H2>
+<section class="contenedor-pizzas"> 
+<div class="row">
+<div class="col  " >
+    <li>Mozarella</li>
+        <img class="pizzafoto" src="img/hacerpedido/clasicas/mozzarella.jpg" alt="pizza clasica">
+        <p>Mozarella,Aceitunas Y Orégano</p>
+        <select name="masa">
+            <option value="piedra">A la Piedra</option> 
+            <option value="molde">Al Molde</option> 
+        </select>
+        <select name="tamaño">
+            <option value="grande">Grande</option> 
+            <option value="chica">Chica</option> 
+        </select>
+        <input type="number" value="cantidad" placeholder="seleccione cantidad">
+</div>
+
+
+<div class="col " >
+    <li>Jamón</li>
+    <img class="pizzafoto" src="img/hacerpedido/clasicas/jamon.jpg" alt="pizza clasica">
+    <p>Mozarella, Jamón, Aceitunas Y Orégano</p>
+    <select name="masa">
+        <option value="piedra">A la Piedra</option> 
+        <option value="molde">Al Molde</option> 
+    </select>
+    <select name="tamaño">
+        <option value="grande">Grande</option> 
+        <option value="chica">Chica</option> 
+    </select>
+    <input type="number" value="cantidad" placeholder="seleccione cantidad">
+</div>
+
+<div class="col " >
+    <li>Napolitana</li>
+    <img class="pizzafoto" src="img/hacerpedido/clasicas/napolitana.jpg" alt="pizza clasica">
+    <p>Mozarella, Rodajas de Tomate<br> Provenzal, Aceitunas Y Orégano</p>
+    <select name="masa">
+        <option value="piedra">A la Piedra</option> 
+        <option value="molde">Al Molde</option> 
+    </select>
+    <select name="tamaño">
+        <option value="grande">Grande</option> 
+        <option value="chica">Chica</option> 
+    </select>
+    <input type="number" value="cantidad" placeholder="seleccione cantidad">
+</div>
+
+</div> <!--cierre clase row -->
+
+<div class="row">
+
+<div class="col" >
+    <li>Caprese</li>
+    <img class="pizzafoto" src="img/hacerpedido/clasicas/caprese.jpg" alt="pizza clasica">
+    <p>Mozarella, Rodajas de Tomate<br>Albahaca,Aceitunas Y Orégano</p>
+    <select name="masa">
+        <option value="piedra">A la Piedra</option> 
+        <option value="molde">Al Molde</option> 
+    </select>
+    <select name="tamaño">
+        <option value="grande">Grande</option> 
+        <option value="chica">Chica</option> 
+    </select>
+    <input type="number" value="cantidad" placeholder="seleccione cantidad">
+</div>
+<div class="col" >
+    <li>Fugazzeta</li>
+    <img class="pizzafoto" src="img/hacerpedido/clasicas/fugazeta.jpg" alt="pizza clasica">
+    <p>Mozarella, Cebolla, Aceitunas Y Orégano</p>
+    <select name="masa">
+        <option value="piedra">A la Piedra</option> 
+        <option value="molde">Al Molde</option> 
+    </select>
+    <select name="tamaño">
+        <option value="grande">Grande</option> 
+        <option value="chica">Chica</option> 
+    </select>
+    <input type="number" value="cantidad" placeholder="seleccione cantidad">
+</div>
+<div class="col">
+    <li>Fugazza</li>
+    <img class="pizzafoto1" src="img/hacerpedido/clasicas/mozzarella.jpg" alt="pizza Fugazza" >
+    <p>Cebolla, Aceitunas Y Orégano</p>
+    <select name="masa">
+        <option value="piedra">A la Piedra</option> 
+        <option value="molde">Al Molde</option> 
+    </select>
+    <select name="tamaño">
+        <option value="grande">Grande</option> 
+        <option value="chica">Chica</option> 
+    </select>
+    <input type="number" value="cantidad" placeholder="seleccione cantidad">
+</div>
+</div> <!--cierre clase row -->
+
+<div class="row">
+<div class="col">
+    <li>Cancha</li>
+    <img class="pizzafoto1" src="img/hacerpedido/clasicas/cancha.webp" alt="pizza sin mozzarella" >
+    <p>Tomate triturado, Aji molido, Provenzal<br> Aceitunas Y Orégano</p>
+    <select name="masa">
+        <option value="piedra">A la Piedra</option> 
+        <option value="molde">Al Molde</option> 
+    </select>
+    <select name="tamaño">
+        <option value="grande">Grande</option> 
+        <option value="chica">Chica</option> 
+    </select>
+    <input type="number" value="cantidad" placeholder="seleccione cantidad">
+</div>
+<div class="col">
+    <li>Criolla</li>
+    <img class="pizzafoto1" src="img/hacerpedido/clasicas/cancha.webp" alt="pizza sin mozzarella" >
+    <p>Tomate triturado,Salsa Criolla<br>Aceitunas Y Orégano</p>
+    <select name="masa">
+        <option value="piedra">A la Piedra</option> 
+        <option value="molde">Al Molde</option> 
+    </select>
+    <select name="tamaño">
+        <option value="grande">Grande</option> 
+        <option value="chica">Chica</option> 
+    </select>
+    <input type="number" value="cantidad" placeholder="seleccione cantidad">
+</div>
+<div class="col">
+    <li>Anchoas</li>
+    <img class="pizzafoto1" src="img/hacerpedido/clasicas/anchoas.webp">
+    <p>Tomate triturado, Anchoas, Aceitunas<br> Y Orégano</p>
+    <select name="masa">
+        <option value="piedra">A la Piedra</option> 
+        <option value="molde">Al Molde</option> 
+    </select>
+    <select name="tamaño">
+        <option value="grande">Grande</option> 
+        <option value="chica">Chica</option> 
+    </select>
+    <input type="number" value="cantidad" placeholder="seleccione cantidad">
+</div>
+
+</div> <!--cierre clase row -->
+
+
+<div class="row">
+
+    <div class="col">
+            <li>Fugazzeta con Jamón</li>
+            <img class="pizzafoto" src="img/hacerpedido/especiales/fugazzetarellenasimple.jpg" alt="pizza fugazzeta con jamon ">
+            <p>Mozarella,Jamón, Cebolla, Aceitunas Y Orégano</p>
+            <select name="masa">
+                <option value="piedra">A la Piedra</option> 
+                <option value="molde">Al Molde</option> 
+            </select>
+            <select name="tamaño">
+                <option value="grande">Grande</option> 
+                <option value="chica">Chica</option> 
+            </select>
+            <input type="number" value="cantidad" placeholder="seleccione cantidad">
+    </div>
+    
+    <div class="col">
+            <li>Fugazzeta con Panceta</li>
+            <img class="pizzafoto" src="img/hacerpedido/especiales/fugazzetarellenasimple.jpg" alt="pizza fugazzeta con Panceta">
+            <p>Mozarella,Panceta, Cebolla, Aceitunas Y Orégano</p>
+            <select name="masa">
+                <option value="piedra">A la Piedra</option> 
+                <option value="molde">Al Molde</option> 
+            </select>
+            <select name="tamaño">
+                <option value="grande">Grande</option> 
+                <option value="chica">Chica</option> 
+            </select>
+            <input type="number" value="cantidad" placeholder="seleccione cantidad">
+    </div>
+    
+    <div class="col" >
+            <li>Fugazzeta con Jamón y Panceta</li>
+            <img class="pizzafoto" src="img/hacerpedido/especiales/fugazzetarellenasimple.jpg" alt="pizza fugazzeta con jamon y panceta ">
+            <p>Mozarella,Jamón,Panceta, Cebolla, Aceitunas Y Orégano</p>
+            <select name="masa">
+                <option value="piedra">A la Piedra</option> 
+                <option value="molde">Al Molde</option> 
+            </select>
+            <select name="tamaño">
+                <option value="grande">Grande</option> 
+                <option value="chica">Chica</option> 
+            </select>
+            <input type="number" value="cantidad" placeholder="seleccione cantidad">
+    </div>
+    
+</div> <!--cierre clase row -->
+
+<div class="row">
+    <div class="col">
+            <li>Fugazzeta Rellena Simple</li>
+            <img class="pizzafoto" src="img/hacerpedido/especiales/fugazzetarellenasimple.jpg"><br>
+            <p>Mozarella,Jamón, Cebolla, Aceitunas Y Orégano<br> (rellena con Mozzarella y Jamón)</p>
+            <select name="tamaño">
+                <option value="grande">Grande</option> 
+                <option value="chica">Chica</option> 
+            </select>
+            <input type="number" value="cantidad" placeholder="seleccione cantidad">
+    </div>
+    
+    <div class="col">
+            <li>Fugazzeta Rellena Completa</li>
+            <img class="pizzafoto" src="img/hacerpedido/especiales/fugazzetarellenacompleta.jpg">
+            <p>Mozarella,Jamón,Panceta, Cebolla, Aceitunas Y Orégano<br> (rellena con Mozzarella y Jamón)</p>
+            <select name="tamaño">
+            <option value="grande">Grande</option> 
+            <option value="chica">Chica</option> 
+            </select>
+            <input type="number" value="cantidad" placeholder="seleccione cantidad">
+    </div>
+    
+    <div class="col">
+            <li>Jamón y Morrones</li>
+            <img class="pizzafoto" src="img/hacerpedido/especiales/jamonymorron.jpg">
+            <p>Mozarella, Jamón, Morrones, Aceitunas Y Orégano</p>
+            <select name="masa">
+                <option value="piedra">A la Piedra</option> 
+                <option value="molde">Al Molde</option> 
+            </select>
+            <select name="tamaño">
+                <option value="grande">Grande</option> 
+                <option value="chica">Chica</option> 
+            </select>
+            <input type="number" value="cantidad" placeholder="seleccione cantidad">
+    </div>
+
+</div> <!--cierre clase row -->
+
+<div class="row">
+    <div class="col">
+            <li>Jamón y Anana</li>
+            <img class="pizzafoto" src="img/hacerpedido/especiales/jamonyanana.jpg">
+            <p>Mozarella, Jamón, Anana, Aceitunas Y Orégano</p>
+            <select name="masa">
+                <option value="piedra">A la Piedra</option> 
+                <option value="molde">Al Molde</option> 
+            </select>
+            <select name="tamaño">
+                <option value="grande">Grande</option> 
+                <option value="chica">Chica</option> 
+            </select>
+            <input type="number" value="cantidad" placeholder="seleccione cantidad">
+    </div>
+    
+    <div class="col">
+            <li>Napolitana Con Jamón</li>
+            <img class="pizzafoto" src="img/hacerpedido/especiales/napolitanaconjamon.jpg">
+            <p>Mozarella, Rodajas de Tomate,Jamón, Provenzal, <br> Aceitunas Y Orégano</p>
+            <select name="masa">
+                <option value="piedra">A la Piedra</option> 
+                <option value="molde">Al Molde</option> 
+            </select>
+            <select name="tamaño">
+                <option value="grande">Grande</option> 
+                <option value="chica">Chica</option> 
+            </select>
+            <input type="number" value="cantidad" placeholder="seleccione cantidad">
+    </div>
+    
+    <div class="col">
+                <li>Calabresa</li>
+            <img class="pizzafoto" src="img/hacerpedido/especiales/calabresa.jpg">
+            <p>Mozarella, Calabresa, Aceitunas Y Orégano</p>
+            <select name="masa">
+                <option value="piedra">A la Piedra</option> 
+                <option value="molde">Al Molde</option> 
+            </select>
+            <select name="tamaño">
+                <option value="grande">Grande</option> 
+                <option value="chica">Chica</option> 
+            </select>
+            <input type="number" value="cantidad" placeholder="seleccione cantidad">
+    </div>
+</div> <!--cierre clase row -->    
+
+<div class="row">
+    <div class="col">
+            <li>Provolone</li>
+            <img class="pizzafoto" src="img/hacerpedido/especiales/provolone.jpg">
+            <p>Mozarella, Provolone, Aceitunas Y Orégano</p>
+            <select name="masa">
+                <option value="piedra">A la Piedra</option> 
+                <option value="molde">Al Molde</option> 
+            </select>
+            <select name="tamaño">
+                <option value="grande">Grande</option> 
+                <option value="chica">Chica</option> 
+            </select>
+            <input type="number" value="cantidad" placeholder="seleccione cantidad">
+    </div>
+    
+    <div class="col">
+            <li>Roquefort</li>
+            <img class="pizzafoto" src="img/hacerpedido/especiales/provolone.jpg">
+            <p>Mozarella, Roquefort, Aceitunas Y Orégano</p>
+            <select name="masa">
+                <option value="piedra">A la Piedra</option> 
+                <option value="molde">Al Molde</option> 
+            </select>
+            <select name="tamaño">
+                <option value="grande">Grande</option> 
+                <option value="chica">Chica</option> 
+            </select>
+            <input type="number" value="cantidad" placeholder="seleccione cantidad">
+    </div>
+    
+    <div class="col" >
+            <li>Tres Quesos</li>
+            <img class="pizzafoto" src="img/hacerpedido/especiales/provolone.jpg">
+            <p>Mozarella,Provolone, Roquefort, Aceitunas Y Orégano</p>
+            <select name="masa">
+                <option value="piedra">A la Piedra</option> 
+                <option value="molde">Al Molde</option> 
+            </select>
+            <select name="tamaño">
+                <option value="grande">Grande</option> 
+                <option value="chica">Chica</option> 
+            </select>
+            <input type="number" value="cantidad" placeholder="seleccione cantidad">
+    </div>
+</div> <!--cierre clase row -->    
+
+<div class="row">
+    <div class="col">
+            <li>Española</li>
+            <img class="pizzafoto" src="img/hacerpedido/especiales/española.jpg">
+            <p>Mozarella, Cantinpalo, Morrón Ahumado, <br> Aceitunas Y Orégano</p>
+            <select name="masa">
+                <option value="piedra">A la Piedra</option> 
+                <option value="molde">Al Molde</option> 
+            </select>
+            <select name="tamaño">
+                <option value="grande">Grande</option> 
+                <option value="chica">Chica</option> 
+            </select>
+            <input type="number" value="cantidad" placeholder="seleccione cantidad">
+    </div>
+    
+    <div class="col" >
+            <li>Primavera</li>
+            <img class="pizzafoto" src="img/hacerpedido/especiales/primavera.jpg">
+            <p>Mozarella, Jamón, Tomate en Rodajas, Huevo Rallado, <br> Aceitunas Y Orégano</p>
+            <select name="masa">
+                <option value="piedra">A la Piedra</option> 
+                <option value="molde">Al Molde</option> 
+            </select>
+            <select name="tamaño">
+                <option value="grande">Grande</option> 
+                <option value="chica">Chica</option> 
+            </select>
+            <input type="number" value="cantidad" placeholder="seleccione cantidad">
+    </div>
+    
+    <div class="col">
+            <li>Palmitos</li>
+            <img class="pizzafoto" src="img/hacerpedido/especiales/provolone.jpg">
+            <p>Mozarella, Huevo picado, Palmitos, Salsa Golf, <br> Aceitunas Y Orégano</p>
+            <select name="masa">
+                <option value="piedra">A la Piedra</option> 
+                <option value="molde">Al Molde</option> 
+            </select>
+            <select name="tamaño">
+                <option value="grande">Grande</option> 
+                <option value="chica">Chica</option> 
+            </select>
+            <input type="number" value="cantidad" placeholder="seleccione cantidad">
+    </div>
+</div> <!--cierre clase row -->  
+
+<div class="row">
+    <div class="col" >
+            <li>Rúcula</li>
+            <img class="pizzafoto" src="img/hacerpedido/especiales/rucula.jpg">
+            <p>Mozarella, Rúcula, Provolone, Aceitunas Y Orégano</p>
+            <select name="masa">
+                <option value="piedra">A la Piedra</option> 
+                <option value="molde">Al Molde</option> 
+            </select>
+            <select name="tamaño">
+                <option value="grande">Grande</option> 
+                <option value="chica">Chica</option> 
+            </select>
+            <input type="number" value="cantidad" placeholder="seleccione cantidad">
+    </div>
+    
+    <div class="col">
+            <li>Rúcula con Jamón crudo</li>
+            <img class="pizzafoto" src="img/hacerpedido/especiales/ruculaycrudo.jpg">
+            <p>Mozarella, Rúcula, Provolone, Jamón Crudo, <br> Aceitunas Y Orégano</p>
+            <select name="masa">
+                <option value="piedra">A la Piedra</option> 
+                <option value="molde">Al Molde</option> 
+            </select>
+            <select name="tamaño">
+                <option value="grande">Grande</option> 
+                <option value="chica">Chica</option> 
+            </select>
+            <input type="number" value="cantidad" placeholder="seleccione cantidad">
+    </div>
+    
+    <div class="col" >
+            <li>Mozzarella y Jamón crudo</li>
+            <img class="pizzafoto" src="img/hacerpedido/especiales/jamoncrudo.jpg">
+            <p>Mozarella,Jamón Crudo, Aceitunas Y Orégano</p>
+            <select name="masa">
+                <option value="piedra">A la Piedra</option> 
+                <option value="molde">Al Molde</option> 
+            </select>
+            <select name="tamaño">
+                <option value="grande">Grande</option> 
+                <option value="chica">Chica</option> 
+            </select>
+            <input type="number" value="cantidad" placeholder="seleccione cantidad">
+    </div>
+    
+</div> <!--cierre clase row -->  
+
+
+</section>
+
+<!--Empandas -->
+
+<h2 class="empanadas"><a name=empanadas></a>Empanadas</h2>
+<section class="contenedor-empanadas"> 
+
+<div class="col"> 
+    <li>Carne Suave Molida</li>
+    <img class="empanadasfoto" src="img/hacerpedido/empanadas/carnesuave.jpg" >
+    <br>
+    <input type="number" value="cantidad" placeholder="seleccione cantidad">
+</div>
+
+<div class="col"> 
+    <li>Carne Picante Molida </li>
+    <img class="empanadasfoto" src="img/hacerpedido/empanadas/carnepicante.jpg" >
+    <br>
+    <input type="number" value="cantidad" placeholder="seleccione cantidad">
+</div>
+
+<div class="col"> 
+    <li>Carne Suave a Cuchillo</li>
+    <img class="empanadasfoto" src="img/hacerpedido/empanadas/carnecuchillo.jpg" >
+    <br>
+    <input type="number" value="cantidad" placeholder="seleccione cantidad">
+</div>
+
+<div class="col"> 
+    <li>Pollo</li>
+    <img class="empanadasfoto" src="img/hacerpedido/empanadas/pollo.jpg" >
+    <br>
+    <input type="number" value="cantidad" placeholder="seleccione cantidad">
+</div>
+
+<div class="col"> 
+    <li>Humita</li>
+    <img class="empanadasfoto" src="img/hacerpedido/empanadas/humita.jpg" >
+    <br>
+    <input type="number" value="cantidad" placeholder="seleccione cantidad">
+</div>
+
+<div class="col"> 
+    <li>Caprese</li>
+    <img class="empanadasfoto" src="img/hacerpedido/empanadas/caprese.jpg" >
+    <br>
+    <input type="number" value="cantidad" placeholder="seleccione cantidad">
+</div>
+
+<div class="col">
+    <li>Roquefort</li>
+    <img class="empanadasfoto" src="img/hacerpedido/empanadas/roquefort.jpg" >
+    <br>
+    <input type="number" value="cantidad" placeholder="seleccione cantidad">
+</div>
+
+<div class="col"> 
+    <li>Jamón y Queso </li>
+    <img class="empanadasfoto" src="img/hacerpedido/empanadas/jamonyqueso.jpg" >
+    <br>
+    <input type="number" value="cantidad" placeholder="seleccione cantidad">
+</div>
+
+<div class="col"> 
+    <li>Queso y Cebolla</li>
+    <img class="empanadasfoto" src="img/hacerpedido/empanadas/quesoycebolla.jpg" >
+    <br>
+    <input type="number" value="cantidad" placeholder="seleccione cantidad">
+</div>
+
+<div class="col"> 
+    <li>Verdura</li>
+    <img class="empanadasfoto" src="img/hacerpedido/empanadas/verdura.jpg" >
+    <br>
+    <input type="number" value="cantidad" placeholder="seleccione cantidad">
+</div>
+
+<div class="col"> 
+    <li>Española</li>
+    <img class="empanadasfoto" src="img/hacerpedido/empanadas/española.jpg" >
+    <br>
+    <input type="number" value="cantidad" placeholder="seleccione cantidad">
+</div>
+
+<div class="col"> 
+    <li>Calabresa</li>
+    <img class="empanadasfoto" src="img/hacerpedido/empanadas/calabresa.jpg" >
+    <br>
+    <input type="number" value="cantidad" placeholder="seleccione cantidad">
+</div>
+
+</section>
+
+
+<!--calzones -->
+<h2 class="calzones"><a name=calzones></a>Calzones</h2>
+<section class="contenedor-calzon">
+<div class="row">  
+<div class="col">
+    <li>Francés</li>
+    <img class="calzonefoto"src="img/hacerpedido/calzones/calzone.webp">
+    <p>Mozarella,Jamón, Champiñones y Albahaca</p>
+    <select name="tamaño">
+        <option value="grande">Grande</option> 
+        <option value="chico">Chico</option> 
+    </select>
+    <input type="number" value="cantidad" placeholder="seleccione cantidad">
+</div>
+
+<div class="col">
+    <li>Roquefort</li>
+    <img class="calzonefoto"src="img/hacerpedido/calzones/calzone.webp">
+    <p>Mozarella,Roquefort y Jamón </p>
+    <select name="tamaño">
+        <option value="grande">Grande</option> 
+        <option value="chico">Chico</option> 
+    </select>
+    <input type="number" value="cantidad" placeholder="seleccione cantidad">
+</div>
+
+<div class="col">
+    <li>Napolitano</li>
+    <img class="calzonefoto"src="img/hacerpedido/calzones/calzone.webp">
+    <p>Mozarella,Tomate, Provenzal y Jamón</p>
+    <select name="tamaño">
+        <option value="grande">Grande</option> 
+        <option value="chico">Chico</option> 
+    </select>
+    <input type="number" value="cantidad" placeholder="seleccione cantidad">
+</div>
+
+</div> <!--Cierre primer row -->
+
+
+<div class="row">  
+<div class="col">
+    <li>Caprese</li>
+    <img class="calzonefoto"src="img/hacerpedido/calzones/calzone.webp">
+    <p>Mozarella,Albahaca y Jamón </p>
+    <select name="tamaño">
+        <option value="grande">Grande</option> 
+        <option value="chico">Chico</option> 
+    </select>
+    <input type="number" value="cantidad" placeholder="seleccione cantidad"> 
+</div>
+
+<div class="col">
+    <li>Provolone</li>
+    <img class="calzonefoto"src="img/hacerpedido/calzones/calzone.webp">
+    <p>Mozarella,Provolone y Jamón </p>
+    <select name="tamaño">
+        <option value="grande">Grande</option> 
+        <option value="chico">Chico</option> 
+    </select>
+    <input type="number" value="cantidad" placeholder="seleccione cantidad">
+</div>
+
+<div class="col">
+    <li>Tres Quesos </li>
+    <img class="calzonefoto"src="img/hacerpedido/calzones/calzone.webp">
+    <p>Mozarella, provolone, roquefort y jamón </p>
+    <select name="tamaño">
+        <option value="grande">Grande</option> 
+        <option value="chico">Chico</option> 
+    </select>
+    <input type="number" value="cantidad" placeholder="seleccione cantidad">
+</div>
+</div> <!--Cierre segundo row -->
+
+<div class="row">  
+<div class="col">
+    <li>Jamón</li>
+    <img class="calzonefoto"src="img/hacerpedido/calzones/calzone.webp">
+    <p>Mozarella y jamón </p>
+    <select name="tamaño">
+        <option value="grande">Grande</option> 
+        <option value="chico">Chico</option> 
+    </select>
+    <input type="number" value="cantidad" placeholder="seleccione cantidad">
+</div>
+
+<div class="col">
+    <li>Jamón Crudo</li>
+    <img class="calzonefoto"src="img/hacerpedido/calzones/calzone.webp">
+    <p>Mozarella, jamón y jamón Crudo </p>
+    <select name="tamaño">
+        <option value="grande">Grande</option> 
+        <option value="chico">Chico</option> 
+    </select>
+    <input type="number" value="cantidad" placeholder="seleccione cantidad">
+</div>
+
+<div class="col">
+    <li>Jamón y Morrón </li>
+    <img class="calzonefoto"src="img/hacerpedido/calzones/calzone.webp">
+    <p>Mozarella, jamón y morrón </p>
+    <select name="tamaño">
+        <option value="grande">Grande</option> 
+        <option value="chico">Chico</option> 
+    </select>
+    <input type="number" value="cantidad" placeholder="seleccione cantidad">
+</div>
+</div> <!--Cierre tercer row -->
+
+<div class="row">  
+<div class="col">
+    <li>Palmitos</li>
+    <img class="calzonefoto"src="img/hacerpedido/calzones/calzone.webp">
+    <p>Mozarella, jamón, huevo rallado,palmitos y salsa golf</p>
+    <select name="tamaño">
+        <option value="grande">Grande</option> 
+        <option value="chico">Chico</option> 
+    </select>
+    <input type="number" value="cantidad" placeholder="seleccione cantidad">
+</div>
+
+<div class="col">
+    <li>Rúcula</li>
+    <img class="calzonefoto"src="img/hacerpedido/calzones/calzone.webp">
+    <p>Mozarella, jamón, provolone,y rúcula</p>
+    <select name="tamaño">
+        <option value="grande">Grande</option> 
+        <option value="chico">Chico</option> 
+    </select>
+    <input type="number" value="cantidad" placeholder="seleccione cantidad">
+</div>
+
+<div class="col">
+    <li>Jamón y Ananá</li>
+    <img class="calzonefoto"src="img/hacerpedido/calzones/calzone.webp">
+    <p>Mozarella, jamón y ananá</p>
+    <select name="tamaño">
+        <option value="grande">Grande</option> 
+        <option value="chico">Chico</option> 
+    </select>
+    <input type="number" value="cantidad" placeholder="seleccione cantidad">
+</div>
+</div> <!--Cierre cuarto row -->
+
+<div class="row" id="ultima-fila" > 
+<div class="col">
+    <li>Española</li>
+    <img class="calzonefoto"src="img/hacerpedido/calzones/calzone.webp">
+    <p>Mozarella, jamón y cantinpalo</p>
+    <select name="tamaño">
+        <option value="grande">Grande</option> 
+        <option value="chico">Chico</option> 
+    </select>
+    <input type="number" value="cantidad" placeholder="seleccione cantidad">
+</div>
+
+<div class="col">
+    <li>Fugazzeta</li>
+    <img class="calzonefoto"src="img/hacerpedido/calzones/calzone.webp">
+    <p>Mozarella, jamón y cebolla</p>
+    <select name="tamaño">
+        <option value="grande">Grande</option> 
+        <option value="chico">Chico</option> 
+    </select>
+    <input type="number" value="cantidad" placeholder="seleccione cantidad">
+</div>
+</div> <!--Cierre quinto row -->
+</section>
+
+
+<!--bebidas-->
+<h2 class="bebidas"><a name=bebidas></a>Bebidas</h2>
+<section class="contenedor-bebidas">
+
+<h4>Lata 354 ml</h4>
+<section class="contenedor-latas">
+<div class="row"> 
+<div class="col">
+        <li>Coca Cola Común</li>
+        <img class="fotobebida" src="img/hacerpedido/bebidas/lata/coca.JPG">
+        <br>
+        <input type="number" value="cantidad" placeholder="seleccione cantidad">
+</div>
+
+<div class="col">
+        <li>Coca Cola Zero</li>
+        <img class="fotobebida" src="img/hacerpedido/bebidas/lata/cocazero.JPG">
+        <br>
+        <input type="number" value="cantidad" placeholder="seleccione cantidad">
+</div>
+
+<div class="col">
+        <li>Sprite</li>
+        <img class="fotobebida" src="img/hacerpedido/bebidas/lata/sprite.JPG">
+        <br>
+        <input type="number" value="cantidad" placeholder="seleccione cantidad">
+</div>
+
+<div class="col">
+        <li>Fanta</li>
+        <img class="fotobebida" src="img/hacerpedido/bebidas/lata/fanta.JPG">
+        <br>
+        <input type="number" value="cantidad" placeholder="seleccione cantidad">
+</div>
+
+
+</div> <!--Cierre row -->
+</section>
+
+
+<h4>Botella 500 ml</h4>
+<section class="contenedor-medio">
+<div class="row">
+    <div class="col">
+        <li>Coca Cola Común</li>
+        <img class="fotobebida" src="img/hacerpedido/bebidas/500/coca.JPG">
+        <br>
+        <input type="number" value="cantidad" placeholder="seleccione cantidad">
+    </div>
+    <div class="col">
+        <li>Coca Cola Zero</li>
+        <img class="fotobebida" src="img/hacerpedido/bebidas/500/cocazero.JPG">
+        <br>
+        <input type="number" value="cantidad" placeholder="seleccione cantidad">
+    </div>
+    <div class="col">
+        <li>Sprite</li>
+        <img class="fotobebida" src="img/hacerpedido/bebidas/500/sprite.JPG">
+        <br>
+        <input type="number" value="cantidad" placeholder="seleccione cantidad">
+    </div>
+    <div class="col">
+        <li>Levite Pomelo</li>
+        <img class="fotobebida" src="img/hacerpedido/bebidas/500/levite.JPG">
+        <br>
+        <input type="number" value="cantidad" placeholder="seleccione cantidad">
+</div>
+</div><!--cierre row-->
+</section>
+
+
+<h4>Botella 1.5 litros</h4>
+
+<section class="contenedor-litro">
+<div class="row"> 
+<div class="col">
+    <li>Coca Cola Común</li>
+    <img class="fotobebida litro" src="img/hacerpedido/bebidas/litro/coca.JPG">
+    <br>
+    <input type="number" value="cantidad" placeholder="seleccione cantidad">
+</div>
+<div class="col">
+    <li>Coca Cola Zero</li>
+    <img class="fotobebida litro" src="img/hacerpedido/bebidas/litro/cocazero.JPG">
+    <br>
+    <input type="number" value="cantidad" placeholder="seleccione cantidad">
+</div>
+<div class="col">
+    <li>Coca Cola Light</li>
+    <img class="fotobebida litro" src="img/hacerpedido/bebidas/litro/cocalight.JPG">
+    <br>
+    <input type="number" value="cantidad" placeholder="seleccione cantidad">
+</div>
+
+</div> <!--cierre primer row -->
+<div class="row"> 
+<div class="col">
+    <li>Sprite</li>
+    <img class="fotobebida litro" src="img/hacerpedido/bebidas/litro/sprite.JPG">
+    <br>
+    <input type="number" value="cantidad" placeholder="seleccione cantidad">
+</div>
+<div class="col">
+    <li>Fanta</li>
+    <img class="fotobebida litro" src="img/hacerpedido/bebidas/litro/fanta.JPG">
+    <br>
+    <input type="number" value="cantidad" placeholder="seleccione cantidad"> 
+</div>
+<div class="col">
+    <li>Levite Pomelo</li>
+    <img class="fotobebida litro" src="img/hacerpedido/bebidas/litro/levite.JPG">
+    <br>
+    <input type="number" value="cantidad" placeholder="seleccione cantidad">
+</div>
+
+</div> <!--cierre segundo row-->
+</section>
+
+</section> <!--cierre contenedor bebidas-->
+
+<h3>Cervezas</h3>
+<section class="cervezas">
+<div class="row" > 
+<div class="col">
+<li>Corona 710 ml</li>
+<img class="fotobebida" src="img/hacerpedido/bebidas/cervezalata/coronagrande.JPG">
+    <br>
+    <input type="number" value="cantidad" placeholder="seleccione cantidad">
+</div>
+
+<div class="col">
+<li>Porron Corona</li>
+<img class="fotobebida" src="img/hacerpedido/bebidas/cervezalata/porroncorona.JPG">
+    <br>
+    <input type="number" value="cantidad" placeholder="seleccione cantidad">
+</div>
+
+<div class="col">
+<li>Amstel</li>
+<img class="fotobebida" src="img/hacerpedido/bebidas/cervezalata/amstel.JPG">
+    <br>
+    <input type="number" value="cantidad" placeholder="seleccione cantidad">
+</div>
+
+</div> <!--cierre row -->
+
+<div class="row">
+
+<div class="col">
+<li>Stella Artois</li>
+<img class="fotobebida" src="img/hacerpedido/bebidas/cervezalata/stella.JPG">
+    <br>
+    <input type="number" value="cantidad" placeholder="seleccione cantidad">
+    </div>
+
+<div class="col">
+<li>Stella Artois Negra</li>
+<img class="fotobebida" src="img/hacerpedido/bebidas/cervezalata/stellanegr.JPG">
+    <br>
+    <input type="number" value="cantidad" placeholder="seleccione cantidad">
+</div>
+
+<div class="col"> 
+<li>Andes Rubia</li>
+<img class="fotobebida" src="img/hacerpedido/bebidas/cervezalata/andes.JPG">
+    <br>
+    <input type="number" value="cantidad" placeholder="seleccione cantidad">
+</div>
+</div> <!--cierre row -->
+
+<div class="row">
+<div class="col" >
+<li>Andes Ipa</li>
+<img class="fotobebida" src="img/hacerpedido/bebidas/cervezalata/andesipa.JPG">
+    <br>
+    <input type="number" value="cantidad" placeholder="seleccione cantidad">
+</div>
+
+<div class="col">
+<li>Andes Roja</li>
+<img class="fotobebida" src="img/hacerpedido/bebidas/cervezalata/andesroja.JPG">
+    <br>
+    <input type="number" value="cantidad" placeholder="seleccione cantidad">
+</div>
+
+<div class="col">
+<li>Miller</li>
+<img class="fotobebida" src="img/hacerpedido/bebidas/cervezalata/miller.JPG">
+    <br>
+    <input type="number" value="cantidad" placeholder="seleccione cantidad">
+</div>
+
+</div> <!-- cierre row -->
+
+<div class="row">
+<div class="col">
+<li>Schneider</li>
+<img class="fotobebida" src="img/hacerpedido/bebidas/cervezalata/schn.JPG">
+    <br>
+    <input type="number" value="cantidad" placeholder="seleccione cantidad">
+</div>
+
+<div class="col"> 
+<li>Schneider Negra</li>
+<img class="fotobebida" src="img/hacerpedido/bebidas/cervezalata/schneg.JPG">
+    <br>
+    <input type="number" value="cantidad" placeholder="seleccione cantidad">
+</div>
+
+<div class="col"> 
+<li>Schneider Roja</li>
+<img class="fotobebida" src="img/hacerpedido/bebidas/cervezalata/schn.JPG">
+    <br>
+    <input type="number" value="cantidad" placeholder="seleccione cantidad">
+</div>
+</div> <!-- cierre row -->
+
+<div class="row">
+<div class="col">
+<li>Imperial</li>
+<img class="fotobebida" src="img/hacerpedido/bebidas/cervezalata/imperial.JPG">
+    <br>
+    <input type="number" value="cantidad" placeholder="seleccione cantidad">
+</div>
+<div class="col"> 
+    <li>Brahma</li>
+    <img class="fotobebida" src="img/hacerpedido/bebidas/cervezalata/brahma.JPG">
+    <br>
+    <input type="number" value="cantidad" placeholder="seleccione cantidad">
+</div> 
+</div> <!--cierre row-->
+</section>
+
+<section class="vinos">
+<h3 >Vinos</h3>
+<br>
+<li> Dadá Malbec</li>
+<img class="fotobebida" src="img/hacerpedido/bebidas/malbec.png">
+<br>
+<input type="number" placeholder="seleccione cantidad">
+</section>
+
+<!--postres-->
+<h2 class=postres ><a name=postres></a>Postres</h2>
+<h3>Bombones rellenos </h3>
+<div class="row">
+
+<div class="col">
+        <li>Dulce de Leche</li>
+        <img class="postrefoto" src="img/hacerpedido/postres/bombonddl.png">
+        <br>
+        <input type="number" placeholder="seleccione cantidad">
+    </div>
+    <div class="col">
+        <li>Crema Americana</li>
+        <img class="postrefoto" src="img/hacerpedido/postres/bombonamer.png">
+        <br>
+        <input type="number" placeholder="seleccione cantidad">
+    </div>
+    <div class="col">
+        <li>Fresas banadas en Chocolate</li>
+        <img class="postrefoto" src="img/hacerpedido/postres/bombongio.png">
+        <br>
+        <input type="number" placeholder="seleccione cantidad">
+        </div>
+</div>
+
+<h3>Helados 375g </h3> 
+<section class="helados">
+<div class="row"> 
+<div class="col">
+        <li>Dulce de Leche Tentación</li>
+        <img class="heladofoto" src="img/hacerpedido/postres/ddl.png">
+        <br>
+        <input type="number" value="cantidad" placeholder="seleccione cantidad">
+    </div>
+<div class="col">
+        <li>Chocolate Doble Tentación</li>
+        <img class="heladofoto" src="img/hacerpedido/postres/chocot.png">
+        <br>
+        <input type="number" value="cantidad" placeholder="seleccione cantidad">
+</div>
+<div class="col">
+        <li>Chocolate Dark</li>
+        <img class="heladofoto" src="img/hacerpedido/postres/chocodark.png">
+        <br>
+        <input type="number" value="cantidad" placeholder="seleccione cantidad">
+    </div>
+
+</div> <!--cierre row -->
+
+<div class="row"> 
+    <div class="col">
+        <li>Cookies And Cream</li>
+        <img class="heladofoto" src="img/hacerpedido/postres/cookies.png">
+        <br>
+        <input type="number" value="cantidad" placeholder="seleccione cantidad">
+        </div>
+        <div class="col">
+        <li>Frutilla a la Crema</li>
+        <img class="heladofoto" src="img/hacerpedido/postres/frutilla.png">
+        <br>
+        <input type="number" value="cantidad" placeholder="seleccione cantidad">
+    </div>
+    <div class="col">
+        <li>Mascarpone</li>
+        <img class="heladofoto" src="img/hacerpedido/postres/mascarpone.png">
+        <br>
+        <input type="number" value="cantidad" placeholder="seleccione cantidad">
+    </div>
+    <div class="col">
+        <li>Banana Split</li>
+        <img class="heladofoto" src="img/hacerpedido/postres/banana.png">
+        <br>
+        <input type="number" value="cantidad" placeholder="seleccione cantidad">
+
+    </div>
+
+</div> <!--cierre row -->
+</section>
+
+
+
+<!--AGREGAR DESPUES
+<h3>Adicionales</h3>
+<li>Mozzarella</li>
+<input type="number" value="cantidad" placeholder="seleccione cantidad">
+    <select name="media-entera">
+            <option value="media">Media pizza </option> 
+            <option value="entera">pizza entera </option> 
+            </select>
+<li>Salsa</li>
+<input type="number" value="cantidad" placeholder="seleccione cantidad">
+    <select name="media-entera">
+            <option value="media">Media pizza </option> 
+            <option value="entera">pizza entera </option> 
+            </select>
+<li>Tomate</li>
+<input type="number" value="cantidad" placeholder="seleccione cantidad">
+    <select name="media-entera">
+            <option value="media">Media pizza </option> 
+            <option value="entera">pizza entera </option> 
+            </select>
+<li>Jamon</li>
+<input type="number" value="cantidad" placeholder="seleccione cantidad">
+    <select name="media-entera">
+            <option value="media">Media pizza </option> 
+            <option value="entera">pizza entera </option> 
+            </select>
+<li>Huevo</li>
+<input type="number" value="cantidad" placeholder="seleccione cantidad">
+    <select name="media-entera">
+            <option value="media">Media pizza </option> 
+            <option value="entera">pizza entera </option> 
+            </select>
+<li>Anchoas</li>
+<input type="number" value="cantidad" placeholder="seleccione cantidad">
+    <select name="media-entera">
+            <option value="media">Media pizza </option> 
+            <option value="entera">pizza entera </option> 
+            </select>
+<li>Champiñones</li>
+<input type="number" value="cantidad" placeholder="seleccione cantidad">
+    <select name="media-entera">
+            <option value="media">Media pizza </option> 
+            <option value="entera">pizza entera </option> 
+            </select>
+<li>Otros</li> <input type="text" value="ingrediente" placeholder="ingrese ingrediente">
+    <select name="media-entera">
+            <option value="media">Media pizza </option> 
+            <option value="entera">pizza entera </option> 
+            </select>
+<h3>Fainas</h3>
+<li>Faina Común</li>
+<input type="number" value="cantidad" placeholder="seleccione cantidad">
+<li>Faina Con Verdeo</li>
+<input type="number" value="cantidad" placeholder="seleccione cantidad">
+<li>Faina Con Provenzal</li>
+<input type="number" value="cantidad" placeholder="seleccione cantidad">
+</ul>
+
+
+
+<div >
+<form class="formulario">
+<label>Nombre</label>
+<input type="text" placeholder="Ingrese su Nombre" required> 
+<label>Dirección</label>
+<input type="text" placeholder="Calle y altura"> <input type="text" placeholder="Depto/casa (timbre)" required> 
+<label>Teléfono</label>
+<input type="text"  placeholder="Ingrese teléfono de Contacto" required> 
+</form>
+</div>
+-->
+
+<hr>
+<a class="boton" href="#head">Ir arriba</a>
+
+<footer class="footer"> 
+
+    <div class="foot-logo">
+    <img  src="img/logodonmatute1.png" alt="logo" />
+    </div>
+    
+    <div class="col" id="donmatute" >
+    <label > Pizzeria  Don  Matute </label>
+    </div>
+    
+    <div class="col" >
+                <nav class="foot-nav">
+                    <li id="foot-texto" ><a href="index.html">Inicio</a></li>
+                    <li id="foot-texto" ><a href="realizarpedido.html">Realizar Pedido</a></li>
+                    <li id="foot-texto" ><a href="sobrenosotros.html"> Sobre Nosotros</a></li>
+                    <li id="foot-texto" ><a href="contacto.html">Contacto</a></li>
+                </nav>
+            </div> <!--cierre clase col-->
+    
+    <div class="ultima-columna"> 
+    <div class="row">
+            <div class="col">
+                <label id="foot-texto"><img  src="img/iconos/ubicacion.svg" /> Teodoro Garcia 2502 ,Colegiales.
+                </label>
+            </div>
+    
+    
+    <div class="row" >
+            <label id="foot-texto" > <img  src="img/iconos/phone.png" /> 4553-5534 / 4553-9910 </label>
+    </div>
+    
+    <div class="redes-sociales">
+                <a href="https://www.facebook.com/pizzeriadonmatute" target="”_blank”">
+                    <img id="facebook" src="img/iconos/facebooklogo.png" alt="facebook icon" />
+                </a>
+                <a href="https://www.instagram.com/pizzeriadonmatute/" target="”_blank”">
+                    <img id="insta" src="img/iconos/instagram.png" alt="instagram icon" />
+                </a>
+                <a href="https://l.instagram.com/?u=https%3A%2F%2Ftinyurl.com%2Fpizzeriadonmatute&e=ATNvVdoSPQTh65VOhpuqDLcGMPEkfC2059rb2si1XhOKKHT100mI-P7VUgys9_aoYUEnjsSA1CcTijoxAg5EGg&s=1"
+                    target="”_blank”">
+                    <img src="img/iconos/whatsapp.svg" alt="whats app icon" /></a>
+        </div> <!--cierre clase redes sociales-->
+    
+    </div>
+        </footer>
+        <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
